@@ -1,0 +1,270 @@
+body {
+    background-color: #d4dded;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.orkut-logo {
+    max-width: 300px;
+}
+
+b {
+    color: red;
+}
+
+a {
+    color: #2753cc; 
+}
+
+p {
+    font-size: 12px;
+    color: #313131;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.aviso {
+    padding: 5px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.aviso-texto {
+    background-color: #fcfdde;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
+
+.content {
+    height: 330px;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin-bottom: 5px;
+}
+
+.container-content {
+    padding: 50px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 63%;
+}
+
+.text {
+    font-size: 12px;
+    text-align: center;
+}
+
+.text b {
+    color: #cc1f89;
+}
+
+.user {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 37%;
+}
+
+.container-login {
+    background-color: #e8eefa;
+    margin-bottom: 10px;
+    height: 80%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login:nth-child(1) {
+    padding-left: 10%;
+}
+
+.login-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 3px;
+}
+
+label { 
+    font-size: 12px;
+    color: #313131;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.input {
+    max-width: 180px;
+    height: 18px;
+}
+
+.login2 {
+    display: flex;
+    flex-direction: column;
+    position: relative; top:-8px;
+}
+
+.checkbox {
+    display: flex;
+    margin: 0 2.5%;
+}
+
+.login3 {
+    display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    padding: 0 5%;
+}
+
+.alerta {
+    color: #9477b0;
+    padding-left: 15%;
+    margin: 0;
+    position: relative; top:-4px;
+}
+
+button {
+    color: #313131;
+    margin-left: 110%;
+}
+
+.conta {
+    display: flex;
+    align-self: center;
+}
+
+.conta a {
+    font-size: 12px;
+    margin-top: 8%;
+}
+
+.register {
+    background-color: #e8eefa;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-test {
+    padding: 0;
+    margin: 1px;
+}
+
+.footer {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #bccdea;
+    color: #313131;
+    padding: 5px;
+}
+
+.footer-links {
+    padding: 0 5px;
+    color: #2753cc;
+}
+
+@media (max-width: 850px) {
+    body {
+        background-color: white;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #login-text {
+        display: none;
+    }
+
+    input {
+        border: none;
+        border-bottom: solid 1px #858585;
+    }
+
+    .input:focus {
+        outline: none;
+    }
+
+    .login {
+        align-self: center;
+    }
+
+    button {
+        margin: 0;
+        margin-top: 20px;
+        background-color: #b90a8e;
+        color: white;
+        border: none;
+        padding: 20px 70px;
+    }
+    .alerta {
+        display: none;
+    }
+
+    .checkbox {
+        display: none;
+    }
+
+    .login-li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-login {
+        align-items: center;
+        border: solid 10px #858585;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 150px;
+    }
+
+    button {
+        padding: 20px 50px;
+    }
+
+    .conta {
+        text-align: center;
+    }
+
+}
